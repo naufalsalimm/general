@@ -1,4 +1,4 @@
-# Delete History Command
+### Delete History Command
 ``` bash
 history -d <no-baris>
 ```
