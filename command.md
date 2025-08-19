@@ -2,22 +2,22 @@
 ``` bash
 history -d <no-baris>
 ```
-# Delete Change
+### Delete Change
 ``` bash
 history -w
 ```
-# Encode File
+### Encode File
 ``` bash
 base64 adam.csr
 ```
-# Decode File 
+### Decode File 
 ``` bash
 base64 -d adam.csr
 ```
-# Reverse search history
+### Reverse search history
 `Ctrl + R`
 
-# Force Resolution Domain
+### Force Resolution Domain
 ``` bash
 curl https://example.com --resolve example.com:443:192.168.1.10
 ```
