@@ -26,3 +26,7 @@ example.com → nama domain yang diminta.
 :443 → port (biasanya 443 untuk HTTPS, 80 untuk HTTP, atau NodePort).
 
 192.168.1.10 → alamat IP yang dipaksa untuk domain tersebut.
+### Copy File InterHost
+``` bash
+scp .\mydb_20250822.dump naufal@20.20.0.6:/home/naufal
+```
